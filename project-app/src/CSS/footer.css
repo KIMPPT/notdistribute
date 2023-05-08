@@ -1,0 +1,26 @@
+.Footerbox{
+    position:relative;
+    bottom:1%;
+    display:flex;
+    justify-content: space-evenly;
+    width:95vw;
+    margin:auto;
+    border-top:3px solid black;
+}
+.Logo{
+    width:100px;
+    height:100px;
+}
+.writebox{
+    display:grid;
+    width:65vw;
+    grid-template-columns:1fr 1fr;
+    text-align:left;
+}
+svg{
+    width:30px;
+    height:30px;
+}
+.svgclick:hover{
+    cursor:pointer
+}

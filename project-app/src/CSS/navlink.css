@@ -1,0 +1,22 @@
+.navlink {
+    margin: 0 30px;
+    background-color: azure;
+    border: 2px solid black;
+}
+.exist{
+    color:blue;
+    background-color: rgba(165,42,42,0.5);
+}
+.navlink,
+.navspan {
+    font-size: 1.5rem;
+}
+
+.navlink:hover {
+    color: yellowgreen;
+    transition: color 0.5s;
+}
+
+.navall {
+    margin: 20px 0;
+}

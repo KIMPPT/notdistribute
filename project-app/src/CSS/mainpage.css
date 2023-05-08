@@ -1,0 +1,42 @@
+.product {
+    border: none;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    box-sizing: content-box;
+}
+
+.first {
+    background-image: url('../../public/image/small1.jpg');
+}
+
+.product:hover {
+    background-color: beige;
+    font-size: 2rem;
+    transition: font-size 0.5s;
+    background-position: cover;
+}
+
+.mainPage {
+    min-height: 100vh;
+}
+
+.productList {
+    display: flex;
+    justify-content: center;
+}
+
+.second {
+    background-image: url('../../public/image/rebar.jpg')
+}
+
+.third {
+    background-image: url('../../public/image/copper.jpg')
+}
+
+.fourth {
+    background-image: url('../../public/image/nickel2.jpg')
+}

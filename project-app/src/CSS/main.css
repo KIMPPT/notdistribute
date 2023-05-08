@@ -1,0 +1,137 @@
+.maintable {
+  position: relative;
+  left: 65%;
+  margin-top: 40px;
+}
+
+.maintable td {
+  padding-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  height: 550px;
+  width: 90vw;
+  margin-bottom: 20px;
+  border-bottom: solid 2px black;
+}
+
+.mainimagelarge {
+  position: absolute;
+  left: 12%;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  bottom: 15%;
+  left: 5%;
+  height: 100px;
+}
+
+.wrap {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.wrap:hover {
+  cursor: pointer
+}
+
+
+.buy {
+  position: absolute;
+  width: 300px;
+
+  left: 65%;
+  bottom: 15%;
+}
+
+.enought {
+  display: flex;
+  justify-content: space-between;
+}
+
+.existbutton,
+.buybutton {
+  width: 120px;
+  height: 50px;
+  font-size: 1.2rem;
+}
+
+.inquirebutton {
+  width: 280px;
+  height: 50px;
+  font-size: 1.5rem;
+  background-color: rgba(255, 50, 50, 0.7);
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer
+}
+
+.existbutton,
+.buybutton {
+  border-radius: 50px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  font-weight: bold;
+}
+
+.existbutton:hover,
+.buybutton:hover {
+  background-color: blue;
+  transition: all 0.5s;
+}
+
+.buttons {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+  left: 10vw;
+  bottom: 1%;
+}
+
+.moreinfor {
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+
+.moreinfor:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+
+.topbutton {
+  position: fixed;
+  z-index: 1;
+  right: 1%;
+  bottom: 10%;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  border: none;
+  padding: 5px 10px;
+  background-color: aqua;
+}
+
+.boldtext {
+  font-weight: bold;
+}

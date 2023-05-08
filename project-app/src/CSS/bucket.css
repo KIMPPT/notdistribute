@@ -1,0 +1,44 @@
+.bucketTable {
+  margin: auto;
+  right: 0;
+}
+
+.bucketTable .bucketTr {
+  width: 700px;
+  height:35px;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1.5fr 1fr 2fr 2fr;
+  border: 1px solid black;
+  line-height: 200%;
+}
+
+.bucketTable .bucketTr>td:nth-child(odd) {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.impact{
+  font-family:'함초롬바탕';
+}
+.bucketCash {
+  border: none;
+  font-size: 2rem;
+  background-color: rgb(#BEBEBE);
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.bucketCash:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  transition: all 0.5s;
+}
+
+.warning {
+  color: red;
+}
+
+.bucketPage{
+  min-height:100vh;
+}
+.boldtext{
+  font-weight:bold;
+}
